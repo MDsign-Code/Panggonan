@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useRestaurant } from '../context/RestaurantContext';
-import { RESTAURANT_INFO } from '../data/initialData';
+import { RESTAURANT_INFO, signatureDishImg } from '../data/initialData';
 import { 
   X, 
   Star, 
@@ -245,7 +245,7 @@ export const ReviewSocialModal: React.FC = () => {
                 {/* Story Image Backdrop */}
                 <div className="absolute inset-0 z-0 opacity-60">
                   <img
-                    src="/src/assets/images/panggonan_signature_dish_1794295774678.jpg"
+                    src={signatureDishImg}
                     alt="Sajian Panggonan"
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"

@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { useRestaurant } from '../context/RestaurantContext';
 import { MenuItem, MenuCategory } from '../types/restaurant';
 import { formatRupiah } from '../utils/formatters';
+import { heroRestoImg } from '../data/initialData';
 import { 
   Search, 
   Flame, 
@@ -115,7 +116,7 @@ export const CustomerMenu: React.FC = () => {
       <section className="relative bg-stone-900 text-stone-100 overflow-hidden border-b border-stone-800">
         <div className="absolute inset-0 z-0 opacity-40">
           <img
-            src="/src/assets/images/hero_panggonan_resto_1794295774747.jpg"
+            src={heroRestoImg}
             alt="Interior Panggonan Resto"
             className="w-full h-full object-cover object-center scale-105"
             referrerPolicy="no-referrer"

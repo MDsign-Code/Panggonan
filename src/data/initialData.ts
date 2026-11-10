@@ -1,5 +1,13 @@
 import { MenuItem, Order, Review } from '../types/restaurant';
 
+import heroRestoImg from '../assets/images/hero_panggonan_resto_1794295774747.jpg';
+import signatureDishImg from '../assets/images/panggonan_signature_dish_1794295774678.jpg';
+import sateMaranggiImg from '../assets/images/panggonan_sate_maranggi_1794295776533.jpg';
+import sopBuntutImg from '../assets/images/panggonan_sop_buntut_1794295776801.jpg';
+import esKelapaImg from '../assets/images/panggonan_es_kelapa_jeruk_1794295776288.jpg';
+
+export { heroRestoImg, signatureDishImg, sateMaranggiImg, sopBuntutImg, esKelapaImg };
+
 export const INITIAL_MENU_ITEMS: MenuItem[] = [
   {
     id: 'm1',
@@ -8,7 +16,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     category: 'unggasan_daging',
     price: 68000,
     originalPrice: 75000,
-    image: '/src/assets/images/panggonan_signature_dish_1794295774678.jpg',
+    image: signatureDishImg,
     isAvailable: true,
     stock: 24,
     spicyLevel: 2,
@@ -25,7 +33,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     description: 'Daging sapi tenderloin pilihan dimarinasi ketumbar, gula aren, dan rempah khas. Dibakar arang kelapa dengan olesan kecap legit, disajikan dengan acar tomat hijau dan cabai rawit.',
     category: 'sate_bakaran',
     price: 58000,
-    image: '/src/assets/images/panggonan_sate_maranggi_1794295776533.jpg',
+    image: sateMaranggiImg,
     isAvailable: true,
     stock: 18,
     spicyLevel: 1,
@@ -43,7 +51,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     category: 'sup_kuah',
     price: 85000,
     originalPrice: 92000,
-    image: '/src/assets/images/panggonan_sop_buntut_1794295776801.jpg',
+    image: sopBuntutImg,
     isAvailable: true,
     stock: 15,
     spicyLevel: 0,
@@ -60,7 +68,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     description: 'Daging kelapa kopyor lembut berpadu perasan jeruk nipis segar, sirup gula batu alami, daun mint, selasih, dan pecahan es kristal. Segar melegakan tenggorokan.',
     category: 'minuman',
     price: 25000,
-    image: '/src/assets/images/panggonan_es_kelapa_jeruk_1794295776288.jpg',
+    image: esKelapaImg,
     isAvailable: true,
     stock: 40,
     spicyLevel: 0,
@@ -77,7 +85,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     description: 'Ayam kampung bakar empuk berlumur madu hutan murni dan saus rempah manis gurih. Aroma smokey arang kelapa khas dipadu sambal terasi matang.',
     category: 'unggasan_daging',
     price: 52000,
-    image: '/src/assets/images/panggonan_signature_dish_1794295774678.jpg',
+    image: signatureDishImg,
     isAvailable: true,
     stock: 20,
     spicyLevel: 1,
@@ -94,7 +102,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     description: 'Ikan gurame segar fillet goreng kipas garing renyah tanpa bau tanah. Disiram cacahan sambal bunga kecombrang wangi aromatik dan perasan jeruk limau.',
     category: 'sate_bakaran',
     price: 78000,
-    image: '/src/assets/images/hero_panggonan_resto_1794295774747.jpg',
+    image: heroRestoImg,
     isAvailable: true,
     stock: 10,
     spicyLevel: 2,
@@ -111,7 +119,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     description: 'Nasi pulen dimasak dengan santan gurih, serai, daun salam, bawang merah utuh, cabai rawit, teri medan goreng, dan pete bakar di dalam panci kastrol tradisional.',
     category: 'unggasan_daging',
     price: 45000,
-    image: '/src/assets/images/panggonan_sate_maranggi_1794295776533.jpg',
+    image: sateMaranggiImg,
     isAvailable: true,
     stock: 30,
     spicyLevel: 1,
@@ -128,7 +136,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     description: 'Dadar telur lembut bercampur tahu sutra kotak, disajikan tinggi dengan tauge segar, taburan seledri, kacang tanah goreng, dan siraman bumbu petis udang istimewa.',
     category: 'camilan',
     price: 32000,
-    image: '/src/assets/images/panggonan_sop_buntut_1794295776801.jpg',
+    image: sopBuntutImg,
     isAvailable: true,
     stock: 16,
     spicyLevel: 1,
@@ -145,7 +153,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     description: 'Bakwan renyah dengan butiran jagung manis pipil segar, daun bawang, dan bumbu rempah tradisional. Renyah tahan lama, disajikan dengan cabai rawit hijau.',
     category: 'camilan',
     price: 24000,
-    image: '/src/assets/images/panggonan_signature_dish_1794295774678.jpg',
+    image: signatureDishImg,
     isAvailable: true,
     stock: 25,
     spicyLevel: 0,
@@ -162,7 +170,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     description: 'Cendol tepung beras pandan suji asli berpadu santan kental gurih, irisan nangka manis wangi, dan sirup gula aren murni pekat dengan es serut halus.',
     category: 'dessert',
     price: 22000,
-    image: '/src/assets/images/panggonan_es_kelapa_jeruk_1794295776288.jpg',
+    image: esKelapaImg,
     isAvailable: true,
     stock: 35,
     spicyLevel: 0,
@@ -179,7 +187,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     description: 'Sup jahe merah hangat membakar tenggorokan berisi bulatan ronde kenyal isi pasta kacang tumbuk manis, kolang-kaling empuk, dan taburan kacang tanah sangrai.',
     category: 'dessert',
     price: 26000,
-    image: '/src/assets/images/panggonan_sop_buntut_1794295776801.jpg',
+    image: sopBuntutImg,
     isAvailable: true,
     stock: 18,
     spicyLevel: 0,
@@ -196,7 +204,7 @@ export const INITIAL_MENU_ITEMS: MenuItem[] = [
     description: 'Alpukat mentega matang pohon dikocok lembut dengan susu kental manis cokelat dan sentuhan single shot espresso aromatik Panggonan.',
     category: 'minuman',
     price: 28000,
-    image: '/src/assets/images/panggonan_es_kelapa_jeruk_1794295776288.jpg',
+    image: esKelapaImg,
     isAvailable: true,
     stock: 20,
     spicyLevel: 0,
