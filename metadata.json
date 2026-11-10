@@ -1,0 +1,6 @@
+{
+  "name": "Panggonan Resto - Digital Menu & Order System",
+  "description": "Menu digital responsif, pemesanan langsung dari meja, pembayaran QRIS terintegrasi, KDS dapur real-time, dan dashboard analitik Panggonan Resto.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
